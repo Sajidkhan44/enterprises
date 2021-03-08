@@ -212,8 +212,9 @@ footer{
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 50%;
-      transform: translateX(100%);
+      width: 100%;
+      height:60vh
+      transform: translateY(-500px);
       transition: transform 0.5s ease-in;
 
     }
@@ -226,13 +227,12 @@ footer{
         cursor: pointer;;
     }
     .banner{
-        width: 50%;
        height: 40vh;
         margin: 20px;
         margin-top: 10px;
     }
     .banner img{
-        width: 450px;
+        width: 300px;
         height: 250px;
         margin-bottom: 10px;
     }
@@ -287,13 +287,18 @@ footer{
        font-size: 10px;
    }
    .social-links li img{
-    width: 15px;
+    width: 12px;
     margin-right: 10px;
 }
+    .copy-right p{
+        font-size:8px;
+    text-align: center ;
+    color: #fff;
+} 
    
 }
 .nav-active{
-    transform: translateX(0%);
+    transform: translateY(0px);
 }
 
 @keyframes navLinkFade{
